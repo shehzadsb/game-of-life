@@ -22,7 +22,7 @@ public class WhenCreatingANewGame {
     public void initializeController() {
         controller = new GameController();
     }
-    @Ignore
+    
     @Test
     public void anEmptyUniverseShouldBeAddedToTheSession() {
         ModelAndView homeView = controller.newGame();
