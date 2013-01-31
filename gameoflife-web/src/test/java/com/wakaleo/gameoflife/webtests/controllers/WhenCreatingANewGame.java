@@ -9,6 +9,7 @@ import static org.mockito.Mockito.mock;
 import javax.servlet.http.HttpServletRequest;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -21,7 +22,7 @@ public class WhenCreatingANewGame {
     public void initializeController() {
         controller = new GameController();
     }
-
+    @Ignore
     @Test
     public void anEmptyUniverseShouldBeAddedToTheSession() {
         ModelAndView homeView = controller.newGame();
