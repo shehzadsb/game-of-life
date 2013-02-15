@@ -35,4 +35,9 @@ public enum Cell {
     	String str = "abc";
     	return str;
     }
+    public String getString2()
+    {
+    	String str = "abc";
+    	return str;
+    }
 }
