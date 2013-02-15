@@ -5,7 +5,7 @@ public enum Cell {
 
     private String symbol;
     
-
+    //constructor
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
     }
@@ -29,5 +29,10 @@ public enum Cell {
 
     public String getSymbol() {
         return symbol;
+    }
+    public String getString()
+    {
+    	String str = "abc";
+    	return str;
     }
 }
